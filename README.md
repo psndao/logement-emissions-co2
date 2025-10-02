@@ -19,6 +19,13 @@ La méthodologie s’articule en plusieurs étapes :
 - Économétrie : régression OLS pour estimer les déterminants des émissions totales et spécifiques (chauffage, ECS, éclairage).
 
 - Analyse de variance (ANOVA) : comparaison des émissions selon le type d’énergie.
+- Économétrie spatiale (libpysal, esda, spreg) :
+
+        -Indice de Moran global et local (LISA) pour détecter l’autocorrélation spatiale,
+
+        -Modèles SAR et SEM pour estimer les effets de voisinage,
+
+       -Mise en évidence des zones où les inégalités environnementales sont amplifiées par la géographie.
 
 - Clustering (K-means) : segmentation des logements en profils homogènes d’émissions.
 
@@ -112,6 +119,7 @@ streamlit run app.py
 
 
 ![CI](https://github.com/psndao/logement-emissions-co2/actions/workflows/ci.yml/badge.svg)
+
 
 
 
